@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #0b0f14;
+  color: #e2e8f0;
+  font-family: system-ui, "Segoe UI", Tahoma, "Noto Sans Arabic", sans-serif;
+}
+
+/* Leaflet داخل ثيم داكن */
+.leaflet-container {
+  background: #0b0f14 !important;
+  font-family: inherit;
+}
+
+.leaflet-tooltip {
+  background: #111a22;
+  border: 1px solid #26323d;
+  color: #e2e8f0;
+  font-size: 11px;
+  box-shadow: none;
+}
+
+.leaflet-tooltip-top::before {
+  border-top-color: #26323d;
+}
+
+.leaflet-control-attribution {
+  background: rgba(11, 15, 20, 0.7) !important;
+  color: #475569 !important;
+  font-size: 9px;
+}
+
+.leaflet-control-attribution a {
+  color: #64748b !important;
+}
+
+.leaflet-control-zoom a {
+  background: #111a22 !important;
+  color: #e2e8f0 !important;
+  border-color: #26323d !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f14;
+}
+::-webkit-scrollbar-thumb {
+  background: #26323d;
+  border-radius: 4px;
+}
