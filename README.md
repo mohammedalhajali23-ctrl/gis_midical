@@ -273,3 +273,5 @@ npm test             # اختبارات محرك التوجيه
 npm run typecheck    # فحص الأنواع
 npm run build        # بناء الإنتاج
 ```
+#   g i s - m e d i c a l - t r a c k e r  
+ 
